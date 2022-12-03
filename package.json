@@ -1,10 +1,17 @@
 {
   "name": "react-page-animations",
-  "version": "1.0.1",
+  "version": "1.1.0",
+  "private": false,
   "description": "The easiest way to add animated page transitions to your React app.",
-  "main": "index.js",
+  "main": "dist/wrapper.js",
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "del dist && rmdir dist && mkdir dist &&  babel package -d dist --copy-files"
   },
   "repository": {
     "type": "git",
@@ -26,6 +33,8 @@
   },
   "homepage": "https://github.com/ThePlugJumbo/react-page-animations#readme",
   "dependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/preset-react": "^7.18.6",
     "framer-motion": "^7.6.18"
   }
 }
