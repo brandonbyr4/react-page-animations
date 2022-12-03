@@ -1,9 +1,9 @@
 {
   "name": "react-page-animations",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "private": false,
   "description": "The easiest way to add animated page transitions to your React app.",
-  "main": "./dist/wrapper.js",
+  "main": "index.js",
   "babel": {
     "presets": [
       "@babel/preset-react"
@@ -11,7 +11,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "publish": "del dist && rmdir dist && mkdir dist &&  babel package -d dist --copy-files"
+    "publish": "babel package -d dist"
   },
   "repository": {
     "type": "git",
