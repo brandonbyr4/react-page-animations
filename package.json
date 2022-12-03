@@ -1,6 +1,6 @@
 {
   "name": "react-page-animations",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The easiest way to add animated page transitions to your React app.",
   "main": "index.js",
   "scripts": {

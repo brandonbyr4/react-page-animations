@@ -1,4 +1,4 @@
-const motion = require('framer-motion');
+import { motion } from 'framer-motion';
 
 module.exports = {
     AnimatedPage: (props) => {
