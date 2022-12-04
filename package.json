@@ -8,7 +8,7 @@
   "files": [ "dist", "README.md" ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "publish": "del dist && rmdir dist && babel lib --out-dir dist --copy-files"
+    "publish": "rmdir dist /s && babel lib --out-dir dist --copy-files"
   },
   "repository": {
     "type": "git",
