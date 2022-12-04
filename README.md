@@ -43,7 +43,7 @@ To customize the transition animation style, pass props to the AnimatedPage comp
 
 ## Contributing
 
-Everyone is welcome to make a contribution to OpenOps. If you are interested in contributing to this project, start with the [Contributing Guide](https://github.com/ThePlugJumbo/react-page-animations/blob/main/CONTRIBUTING.md).
+Everyone is welcome to make a contribution to react-page-animations. If you are interested in contributing to this project, start with the [Contributing Guide](https://github.com/ThePlugJumbo/react-page-animations/blob/main/CONTRIBUTING.md).
 
 ## License
 
