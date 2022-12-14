@@ -26,7 +26,14 @@
     "page",
     "transitions",
     "animate",
-    "animation"
+    "animation",
+    "transition",
+    "router",
+    "fade",
+    "fade-in",
+    "page-transitions",
+    "page-animation",
+    "page-animations"
   ],
   "author": "ThePlugJumbo",
   "license": "ISC",
