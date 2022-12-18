@@ -26,12 +26,12 @@ There are some scripts in node package manager which is used while making a cont
 - npm run build 
  
   It creates a build directory with a production build of your app. Inside the build/static
-  directory will be your JavaScript and CSS files.Each filename inside of build/static will contain a unique hash of file contents.This hash in a file name enables long term caching techniques. 
+  directory will be your JavaScript and CSS files.Each filename inside of build/static will contain a unique hash of file contents.This hash in a file name enables       long term caching techniques. 
 
 - npm run publish
 
-  Publishes a package to the registry so that it can be installed by name.By default npm will publish to the public registry. This can be overridden by specifying a different default registry or using a scope in the name, combined with a scope-configured registry
+  Publishes a package to the registry so that it can be installed by name.By default npm will publish to the public registry. This can be overridden by specifying a     different default registry or using a scope in the name, combined with a scope-configured registry
 
 - npm run 
 
-  This runs an arbitrary command from a package's "scripts" object. If no "command" is provided, it will list the available scripts.run[-script] is used by the test, start, restart, and stop commands, but can be called directly, as well. When the scripts in the package are printed out, they're separated into lifecycle (test, start, restart) and directly-run scripts. 
+  This runs an arbitrary command from a package's "scripts" object. If no "command" is provided, it will list the available scripts.run[-script] is used by the test,     start, restart, and stop commands, but can be called directly, as well. When the scripts in the package are printed out, they're separated into lifecycle (test,       start,restart) and directly-run scripts. 
